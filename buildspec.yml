@@ -1,0 +1,18 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo "Instalando dependências (nenhuma neste caso)"
+  build:
+    commands:
+      - echo "Build iniciado..."
+      - echo "Nenhuma transformação necessária"
+  post_build:
+    commands:
+      - echo "Build finalizado!"
+
+artifacts:
+  files:
+    - '**/*'
+
